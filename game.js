@@ -1,8 +1,9 @@
 "use strict";
 
 // global variables for multipurpose uses
-let i = "Investigate";
-let l = "Left";
+let i = "Investigate" && "investigate";
+let l = "Left" && "left";
+// document.getElementById("bodyId").style.backgroundImage = `url"${}"`
 
 var enterCabin = confirm("You come across an abandoned cabin in the woods. Do you enter?");
 
